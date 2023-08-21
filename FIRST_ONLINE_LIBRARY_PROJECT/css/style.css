@@ -1,0 +1,108 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 20px;
+    background-image: url(../images/lib1.jpg);
+    background-size: cover;
+}
+.nav-bar {
+    background: rgb(9, 165, 165);
+    text-align: center;
+}
+.nav-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+.nav-bar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px  ;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+ .active, .nav-bar ul li:hover {
+    background: rgb(46, 238, 238);
+    border-radius: 3px;
+ }
+ .sub-1 {
+    display: none;
+ }
+ .nav-bar ul li:hover .sub-1 {
+    display: block;
+    position: absolute;
+    background:  rgb(9, 165, 165);
+    margin-top: 15px;
+    margin-left: -15px;
+ }
+ .nav-bar ul li:hover .sub-1 ul {
+    display: block;
+    margin: 10px  ;
+ }
+ .nav-bar ul li:hover .sub-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.nav-bar ul li:hover .sub-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.nav-bar ul li:hover .sub-1 ul li a:hover {
+    color: rgb(203, 207, 207); ;
+
+}
+.fa-angle-right{
+    float: right;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.lib-first {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 14px;
+    position: relative;
+
+}
+.lib-second{
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+.photo{
+    position: relative;
+    top: 45;
+    left: 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
