@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="book.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="bookpage.css">
+    <title>books</title>
+</head>
+<body>
+    <header>
+                <div class="logo">
+        <img src="C:\Users\DELL\Downloads\logo3.jpg" alt="A BOOK"
+        width="190px"
+        height="90px"/>
+        <h1 style="color: aliceblue;"> ANCHOR POINT LIBRARY</h1>
+    </div>
+   <nav>
+    <li><a href="home1.html"> <i class="fa-solid fa-house"></i>HOME</a></li>
+    <li><a href="Books.html"> <i class="fa-solid fa-book-open"></i>BOOKS </a></li>
+    <li><a href="#"> <i class="fa-solid fa-comment"></i></i>FEEDBACK</a></li>
+
+   </nav>
+</header>
+<style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    
+    .sidenav {
+      height: 100%;
+      margin-top: 12px;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    #main {
+      transition: margin-left .5s;
+      padding: 16px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+    </head>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "200px";
+      document.getElementById("main").style.marginLeft = "200px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+    </div>
+
+    <!-- books  -->
+
+
+
+
+ 
+      <div class="featured-product-section" id="products">
+        <div class="section-wrap">
+            
+            <div class="featured-product-wrap fruits">
+                <div class="sub-section-title">
+                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                </div>
+    
+                <div class="featured-products">
+                    <div class="product-wrap apple">
+                        <div class="product-img">
+                            <img src="download (1).jpg" alt="apple_img">
+                        </div>
+    
+                        <div class="product-icons">
+                            <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                            <!-- <p><span class="discount">18</span>% off</p> -->
+                        </div>
+    
+                        <div class="product-description">
+                            <p class="product-name"> TO KILL A BIRD</p>
+                            <div class="add-to-cart-btn">
+                                <p><span class="icon-cart-plus"></span> READ BOOK</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product-wrap orange">
+                        <div class="product-img">
+                            <img src="images (1).jpg" alt="orange_img">
+                        </div>
+    
+                        <div class="product-icons">
+                            <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                            
+                        </div>
+    
+                        <div class="product-description">
+                            <p class="product-name"> AT WAR</p>
+                            </p>
+                            <div class="add-to-cart-btn">
+                                <p><span class="icon-cart-plus"></span> READ BOOK</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product-wrap orange-green">
+                        <div class="product-img">
+                            <img src="images.jpg" alt="orange_green_img">
+                        </div>
+                        <!-- <div class="product-icons">
+                            <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                            <p><span class="discount">18</span>% off</p>
+                        </div> -->
+    
+                        <div class="product-description">
+                            <p class="product-name">Wings Of Fire</p>
+
+                            <div class="add-to-cart-btn">
+                                <p><span class="icon-cart-plus"></span> READ BOOK</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product-wrap grape">
+                        <div class="product-img">
+                            <img src="download (2).jpg" alt="grape_img">
+                        </div>
+    
+                        <div class="product-icons">
+                            <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                        </div>
+    
+                        <div class="product-description">
+                            <p class="product-name">The Old Man And The Sea </p>
+                            <div class="add-to-cart-btn">
+                                <p><span class="icon-cart-plus"></span> READ BOOK</p>
+                            </div>
+                        </div>
+                    </div>
+
+</body>
+
+
+</html>

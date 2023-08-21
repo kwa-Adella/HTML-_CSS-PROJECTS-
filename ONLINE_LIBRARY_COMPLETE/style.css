@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(lib1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    height: 125px;
+    width: 1361px;
+    background-color: rgb(8, 61, 61);
+}
+.logo{
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+h1{
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: large;
+    color: #ff9;
+   
+    }
+nav{
+    float: right;
+    word-spacing: 30px; 
+    padding: 30px;
+}
+nav li{
+    
+    display: inline-block ;
+    line-height: 50px;
+}
+.fa-solid{
+    padding: 20px;
+}
+img{
+    background-color: grey
+
+}
+h1{
+    padding-top: 2px;
+}
+.work{
+    background: rgba(44, 62, 80, 0.8);
+    padding: 40px;
+    width: 350px;
+    margin: 250px;
+    margin-left: 180px;
+    margin: 0 auto;
+    height: 554px;
+    margin-top: 15px;
+    border-radius: 35px;
+      
+}
+form{
+    width: 340px;
+    text-align: center;
+
+}
+input{
+    width: 260px;
+    text-align: center;
+    height: 29px;
+    font-family: sans-serif;
+    font-weight: 120;
+    padding: 10px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    height: 30px;
+    padding-top: 15px;
+}
+.up h3{
+    color: gold;
+    font-size: 35px;
+}
+button{
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+    background: rgba(100, 173, 245, 0.8);
+
+}
+div p a{
+    color: gold;
+    font-weight: bold;
+}
+div p {
+    cursor: pointer; 
+}
+::placeholder{
+    color: whitesmoke;
+}
+.ton button:hover{
+    background:rgba(6, 124, 243, 0.8);
+}
+.sign{
+    padding-top: 1px;
+}
+.ton{
+    padding-top: 0px;
+}
+

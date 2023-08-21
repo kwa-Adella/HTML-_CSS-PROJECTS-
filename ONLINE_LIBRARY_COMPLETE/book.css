@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 32, 29);
+}
+section{
+    color: orange;
+    background-color:   rgb(8, 61, 61);
+    width: 250px;
+    height: 400px;
+    box-shadow: 4px 4px 30px  rgb(6, 27, 27);
+    border-radius: 30px;
+    padding: 40px;
+
+}
+section:hover{
+    background-color: rgb(3, 82, 82);
+    
+}
+.text{
+    padding: 25px;
+    float: left;
+    padding-left: 80%;
+}
+.novel{
+    padding: 25px;
+    /* float: left; */
+    padding-right: 150%;
+    float: right;
+    margin: 0 auto;
+    margin-top: 6px;
+    /* position:absolute; */
+}
+header{
+    height: 125px;
+    width: 1361px;
+    background-color: rgb(8, 61, 61);
+    position: relative;
+
+}
+.logo{
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+h1{
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: large;
+    color: #ff9;
+   
+    }
+    li a i:hover{
+        background-color: #ff9;
+
+    }
+nav{
+    float: right;
+    word-spacing: 30px; 
+    padding: 10px;
+}
+nav li{
+    
+    display: inline-block ;
+    line-height: 70px;
+}
+.fa-solid{
+    padding: 20px;
+}
+img{
+    background-color: grey
+
+}
+h1{
+    padding-top: 2px;
+}
+  
+/* body{
+width: 300px;
+height: 550px;
+box-shadow: 4px 4px 30px  rgb(6, 27, 27);
+border-radius: 30px;
+padding: 20px;
+margin: 0 auto;
+text-align: center;
+margin-top: 6px;
+} */
