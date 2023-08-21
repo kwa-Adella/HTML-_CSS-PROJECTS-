@@ -1,0 +1,98 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 95vh;
+    background-color: rgb(4, 73, 85);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.work{
+    width: 300px;
+    height: 550px;
+    box-shadow: 4px 4px 30px  rgb(6, 27, 27);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6px;
+}
+.put input{
+    background-color: rgb(12, 138, 177);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
+.put input:hover{
+    background: rgb(252, 9, 187) ;
+    color: aliceblue;
+    
+
+}
+input{
+    height: 34px;
+    width: 260px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+
+}
+::placeholder{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    opacity: 0.8;
+
+}
+.up{
+    text-align: center;
+}
+.put{
+    text-align: center;
+    line-height: 15px;
+
+}
+div h3{
+    color: rgb(241, 7, 182);
+
+}   
+div input{
+    cursor: pointer;
+}
+div p {
+    cursor: pointer;
+}
+div a{
+    color:rgb(241, 7, 182) ;
+    font-weight: bolder;
+}
+a:hover{
+    color: orangered;
+}
+div p{
+    color: rgb(2, 31, 56);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
